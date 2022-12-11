@@ -1,0 +1,420 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.banner_menu {
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    padding: 15px;
+    text-transform: uppercase;
+    color: rgb(112, 110, 110);
+    border-radius: 5px;
+}
+.active, nav a:hover {
+    background-color: #39aae1;
+    color: white;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('assets/imagens/img1.jpg');
+    background-position: center center;
+    height: 670px;
+}
+.banner .container  {
+    display: flex;
+    flex-direction: column;
+}
+.banner_Title {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner_Title h1 {
+    font-size: 70px;
+    color: white;
+    max-width: 350px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
+}
+.banner_Title p {
+    font-size: 21px;
+    color: white;
+    max-width: 350px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
+}
+.banner_options {
+    display: flex;
+    height: 215px;
+}
+.banner1, .banner2, .banner3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+.banner1 {
+    background-color: #39aae1;
+    border-top-left-radius: 8px;
+}
+.banner2 {
+    background-color: #0079C7;
+}
+.banner3 {
+    background-color: #2B4C99;
+    border-top-right-radius: 8px;
+}
+.banner_options h1 {
+    font-size: 23px;
+}
+.banner_options p {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner_options a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 5px;
+}
+.banner_options a:hover {
+    background-color: rgb(190, 224, 233);
+}
+.banner3 h1 {
+    margin-bottom: 20px;
+}
+.Monday, .Sunday, .Saturday {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+section#geral {
+    display: flex;
+    justify-content: center;
+}
+section.principal {
+    flex: 2;
+    display: flex;
+}
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+.widget_bar {
+    height: 2px;
+    width: 50px;
+    background-color: #39aae1;
+    margin-bottom: 20px;
+}
+.box_title {
+    display: flex;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 30px;
+}
+.title_1 {
+    background-color: #2B4C99;
+    padding: 10px;
+    margin-right: 2px;
+}
+.title_2 {
+    background-color: #39aae1;
+    padding: 10px;
+}
+.box_resume h1 {
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.box_resume p {
+    color: #727272;
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+.espaço {
+    display: flex;
+    flex-wrap: wrap;
+}
+article {
+    flex: 1;
+    width: 300px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+article img {
+    width: 300px;
+}
+aside#geral {
+    flex: 1;
+}
+aside .flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    height: 528px;
+}
+aside .flexbox div {
+    background-color: #39aae1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    margin-left: 0px;
+    width: 135px;
+    height: 135px;
+}
+.flexbox .div2, .div4, .div6 {
+    margin-right: 0px;
+}
+.widget_body p {
+    margin-bottom: 30px;
+}
+.make div {
+    margin-bottom: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+.footer_menu {
+    display: flex;
+    height: 115px;
+    cursor: pointer;
+}
+.footer_menu h1 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.footer_menu p {
+    font-size: 13px;
+}
+footer .container {
+    display: flex;
+    flex-direction: column;
+}
+.fm1, .fm2, .fm3 {
+    padding: 20px;
+    flex: 1;
+}
+footer .fm1 {
+    background-color: #39aae1;
+}
+footer .fm2 {
+    background-color: #0079C7;
+}
+footer .fm3 {
+    background-color: #2B4C99;
+}
+.footer_area {
+    display: flex;
+}
+.Fa {
+    flex: 1;
+    margin-right: 15px;
+    line-height: 19px;
+}
+.footer_area h1 {
+    font-size: 23px;
+}
+.footer_area p {
+    font-size: 12px;
+    color: #727272;
+}
+.clinic {
+    display: flex;
+    justify-content: space-between;
+}
+.margem {
+    margin-bottom: 20px;
+}
+.white {
+    color: white;
+    font-weight: normal;
+}
+.blue {
+    color: #0099FF;
+    font-weight: normal;
+}
+.footer_copy p {
+    font-size: 12px;
+    color: #727272;
+    border-top: 1px solid #2c2c2c;
+    padding: 10px;
+    padding-left: 0px;
+    margin-top: 35px;
+}
+#menu {
+    display: none;
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    color: #39aae1;
+}
+
+@media screen and (max-width: 600px) {
+    header .logo {
+        margin-left: 25px;
+    }
+    .banner_Title h1 {
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 50px;
+    }
+    .banner_Title p {
+        margin-left: 20px;
+        margin-bottom: 40px;
+        font-size: 17px;
+    }
+    .banner_options {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    section#geral {
+        margin-top: 40px;
+    }
+    section#geral .container {
+        display: flex;
+        flex-direction: column;
+    }
+    article {
+        width: 100%;
+        padding: 20px;
+    }
+    article img {
+        width: 539px;
+    }
+    .primario {
+        margin-bottom: 0px;
+    }
+    .widget_body p {
+        margin-bottom: 0px;
+    }
+    .widget_title, .widget_bar {
+        margin-left: 20px;
+    }
+
+    aside .flexbox {
+        margin-left: 20px;
+        height: 351px;
+        width: 500px;
+    }
+    div.widget_body.make {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+    .widget_body.make p {
+        margin-bottom: 30px;
+    }
+
+    .footer_menu {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30%;
+    }
+
+    .footer_area {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .footer_area .widget_title {
+        margin: 0px;
+    }
+    div.Fa div.widget_title {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    div.Fa div.widget_bar {
+        margin-left: 0px;
+    }
+    .footer_copy p {
+        margin-top: 21px;
+        margin-left: 20px;
+    }    
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        background-color: white;
+    }
+    header {
+        height: auto;
+    }
+    #menu {
+        display: block;
+    }
+    nav a {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        margin-left: 20px;
+    }
+    .banner_Title h1, .banner_Title p {
+        margin-left: 20px;
+    }
+    article {
+        margin-left: 20px;
+        width: 100%;
+    }
+    .primario {
+        margin-left: 20px;
+    }
+    article img {
+        width: 470px;
+    }
+    aside .flexbox {
+        height: 990px;
+    }
+    div.widget_body.make div {
+        margin-right: 20px;
+    }
+    .footer_area {
+        margin-left: 20px;
+    }
+    .footer_copy p {
+        margin-left: 20px;
+    }
+}
